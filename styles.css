@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #e087a8;
+  color: #4f162b;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+aside {
+  width: 20%;
+}
+
+section {
+  width: 100%;
+  overflow: scroll;
+}
+
+#cargrid {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: burlywood;
+  flex-shrink: 3;
+  flex-flow: space-between;
+  align-items: stretch;
+}
+
+/* Add styling for filters and car listings here */
