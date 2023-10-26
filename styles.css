@@ -15,8 +15,23 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   padding: 5px;
-  line-height: 10px; /* Change line-height for better alignment */
-  flex: 0 0 auto; /* Prevent header from growing */
+  line-height: 0px; /* Change line-height for better alignment */
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between; /* This will align the image and the text on the left */
+  align-items: center; /* Prevent header from growing */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 120px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-left: 80px;
+  margin-right: 350px;
 }
 
 main {
@@ -149,7 +164,13 @@ h2 {
 
 /* Style for the search container */
 .search-container {
-  align-items: center; /* Align items vertically */
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px; /* Align items vertically */
+}
+
+.search-container h2 {
+  margin: 0; /* Remove the default margin for h2 */
 }
 
 /* Style for the search input */
