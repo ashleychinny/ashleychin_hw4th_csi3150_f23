@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
 
-    <title>Used Car Sales</title>
+    <title>Used Car Inventory</title>
   </head>
+
   <body>
     <header>
       <div class="header-content">
         <img src="./images/pink car.png" alt="Description of the image" />
-        <h1>Used Car Inventory</h1>
-        <!--<div class="search-container">
+        <h1>Ashley's Used Car Inventory</h1>
+        <br />
+        <div class="search-container">
           <input type="text" id="searchInput" placeholder="Search..." />
           <button id="searchButton">Search</button>
-        </div> -->
+        </div>
       </div>
     </header>
+
     <main>
       <section class="filters">
         <label for="yearFilter">Year:</label>
@@ -75,7 +78,6 @@
           <option value="45000">45,000</option>
           <option value="50000">50,000</option>
           <option value="60000">60,000</option>
-          <!-- Add other options if needed -->
         </select>
         <br />
         <br />
@@ -89,7 +91,6 @@
           <option value="Red">Red</option>
           <option value="Gray">Gray</option>
           <option value="Green">Green</option>
-          <!-- Populate this select box with car colors from usedCars.js using JavaScript -->
         </select>
         <br />
         <br />
@@ -112,15 +113,12 @@
           <option value="38000">$38,000</option>
           <option value="55000">$55,000</option>
           <option value="68000">$68,000</option>
-          <!-- Add other options if needed -->
         </select>
       </section>
       <br />
 
       <section class="car-listings">
-        <div id="carListings" class="car-grid">
-          <!-- Car listings will be displayed here -->
-        </div>
+        <div id="carListings" class="car-grid"></div>
       </section>
 
       <div class="container" id="cargrid"></div>
